@@ -1,6 +1,8 @@
-.idea/**/*
+.idea
 bower_components
 node_modules
 ProjectTemplate*.css
-.tmp/**/*
-dist/**/*
+.tmp
+dist
+coverage
+test/logs

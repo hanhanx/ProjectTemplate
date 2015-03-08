@@ -1,5 +1,11 @@
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
+var bwlog = require('../lib/browserlog.js');
+ddescribe('test homepage', function() {
+    it('logging', function() {
+    });
 
+    afterEach(function() {
+        bwlog();
+    });
+});
