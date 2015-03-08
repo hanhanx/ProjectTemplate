@@ -1,7 +1,7 @@
 'use strict';
 
 var bwlog = require('../lib/browserlog.js');
-ddescribe('test homepage', function() {
+describe('test homepage', function() {
     beforeEach(function() {
         browser.get('http://localhost:9000/');
     });

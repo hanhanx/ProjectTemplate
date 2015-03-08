@@ -32,4 +32,8 @@ angular.module('pp.app', [
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+    .controller('ppCtrl', function($scope) {
+        console.log('this is weird, why are you not outputing to the browser log.');
+    });
+

@@ -9,7 +9,9 @@ describe('angularjs homepage', function() {
 
     expect(greeting.getText()).toEqual('Hello Julie!');
   });
-
+afterEach(function() {
+    bwlog();
+});
   describe('todo list', function() {
     var todoList;
 
