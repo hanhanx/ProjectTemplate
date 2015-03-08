@@ -14,4 +14,5 @@ angular.module('pp.main',[])
       'AngularJS',
       'Karma'
     ];
+    console.log($scope.awesomeThings);
   });

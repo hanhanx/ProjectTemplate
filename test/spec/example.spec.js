@@ -1,3 +1,4 @@
+var bwlog = require('../lib/browserlog.js');
 describe('angularjs homepage', function() {
   it('should greet the named user', function() {
     browser.get('http://www.angularjs.org');
@@ -33,5 +34,8 @@ describe('angularjs homepage', function() {
       expect(todoList.count()).toEqual(3);
       expect(todoList.get(2).getText()).toEqual('write a protractor test');
     });
+      afterEach(function() {
+          bwlog();
+      });
   });
 });
