@@ -28,7 +28,7 @@ module.exports = function () {
                 for(var i = 0; i < len; i++) {
                     var logEntry = logEntries[i];
                     var msg = new Date(logEntry.timestamp) + '  ' + logEntry.type + '  ' + logEntry.message;
-                    fs.appendFileSync(logFileName, msg, {encoding: 'utf8'}, function(e) {
+                    fs.appendFileSync(logFileName, msg+'\r\n', {encoding: 'utf8'}, function(e) {
                         console.log(e);
                     });
                 }
