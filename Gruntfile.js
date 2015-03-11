@@ -164,7 +164,7 @@ module.exports = function (grunt) {
         }
       },
       less: {
-        files: ['<%= yeoman.app %>/**/*.less'],
+        files: ['<%= yeoman.src %>/**/*.less'],
         tasks: ['fileblocks:less', 'less:compile']
       },
       gruntfile: {
