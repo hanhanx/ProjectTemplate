@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular.module('pp.app', [
-    //replace:templates-app,
+    //replace:templates-app,/
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -34,6 +34,6 @@ angular.module('pp.app', [
       });
   })
     .controller('ppCtrl', function($scope) {
-        console.warn('this is weird, why are you not outputing to the browser log.');
+        console.warn('this is weird, why are you not oufwewrewrewrewuting to the browser log.');
     });
 
