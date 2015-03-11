@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular.module('pp.app', [
-    //replace:templates-app,/
+    //replace:templates-app,
     'ngAnimate',
     'ngCookies',
     'ngResource',
