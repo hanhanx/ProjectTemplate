@@ -267,7 +267,7 @@ module.exports = function (grunt) {
         app: {
             cwd: '<%= yeoman.base %>',
             src: ['<%= yeoman.src %>/index.html'],
-            devDependencies: true,
+            devDependencies: false,
             ignorePath:  /\.\.\//,
             exclude: '<%= bower.excludeFiles %>'
         },

@@ -29,12 +29,13 @@ module.exports = function(config) {
         'bower_components/angular-sanitize/angular-sanitize.js',
         'bower_components/angular-touch/angular-touch.js',
         'bower_components/angular-mocks/angular-mocks.js',
+        'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
         // endbower
+        //'src/**/*.tpl.html',
         'src/**/*.css',
         'src/**/*.js',
-        '.tmp/templates-app.js'
-        //'src/**/*.tpl.html',
-        //{pattern: 'src/mock/*.json', watched: true, served: true, included: false}
+        '.tmp/templates-app.js',
+        {pattern: 'src/mock/*.json', watched: true, served: true, included: false}
     ],
 
     // list of files / patterns to exclude

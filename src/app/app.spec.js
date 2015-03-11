@@ -1,5 +1,6 @@
 describe('App', function () {
     beforeEach(module('templates-app'));
+    beforeEach(module('init-mock'));
     beforeEach(module('pp.app'));
     beforeEach(inject(function($httpBackend) {
         $httpBackend.expectGET('about').respond(200);

@@ -34,6 +34,6 @@ angular.module('pp.app', [
       });
   })
     .controller('ppCtrl', function($scope) {
-        console.log('this is weird, why are you not outputing to the browser log.');
+        console.warn('this is weird, why are you not outputing to the browser log.');
     });
 
