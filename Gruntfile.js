@@ -131,15 +131,7 @@ module.exports = function (grunt) {
           relativeUrls: true
         },
         files: {
-          "<%= yeoman.src %>/<%= pkg.name %>-<%= pkg.version %>.css": "<%=yeoman.src%>/less/app.less"
-        }
-      },
-      release: {
-        options: {
-            relativeUrls: false
-        },
-        files: {
-          ".tmp/<%= pkg.name %>-<%= pkg.version %>.css": "<%= yeoman.src %>/less/app.less"
+          "<%= yeoman.src %>/less/<%= pkg.name %>-<%= pkg.version %>.css": "<%=yeoman.src%>/less/app.less"
         }
       }
     },
