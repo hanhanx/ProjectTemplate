@@ -9,5 +9,6 @@ branch:
 before_script:
   - npm install --quiet -g grunt-cli
   - npm install
+  - bower install
 
 script: grunt test
