@@ -58,7 +58,6 @@ module.exports = function(config) {
     plugins: [
         'karma-chrome-launcher',
         'karma-phantomjs-launcher',
-        //'karma-ng-html2js-preprocessor',
         'karma-jasmine',
         'karma-coverage'
     ],
@@ -81,13 +80,8 @@ module.exports = function(config) {
     // urlRoot: '_karma_'
     preprocessors: {
         'src/**/!(*.spec).js': ['coverage']
-        //,'src/**/*.tpl.html': ['ng-html2js']
     },
-    //ngHtml2JsPreprocessor: {
-    //    stripPrefix: 'src/app/',
-    //    prependPrefix: '',
-    //    moduleName: 'templates-app'
-    //},
+
     reporters: ['progress', 'coverage'],
     coverageReporter: {
       reporters: [

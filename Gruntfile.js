@@ -465,22 +465,7 @@ module.exports = function (grunt) {
             dest: '.tmp/templates-app.js'
         }
     },
-    //includereplacemore: {
-    //  tmp: {
-    //      options: {
-    //          prefix: '// {{',
-    //          suffix: ' }}',
-    //          globals: {
-    //              dev: true,
-    //              html2js: '\'templates-app\''
-    //          }
-    //      },
-    //      files: [
-    //          {src: 'index.html', dest: '.tmp/', expand: true, cwd: 'src/'},
-    //          {src: 'app.js', dest: '.tmp/', expand: true, cwd: 'src/app/'}
-    //      ]
-    //  }
-    //}
+
     replace: {
         tmp: {
             options: {
